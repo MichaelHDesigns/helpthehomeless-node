@@ -9,13 +9,13 @@ var log = index.log;
 log.debug = function() {};
 
 var chai = require('chai');
-var helpthehomeless = require('@Altcoin-Cash/helpthehomeless-lib');
+var dashcore = require('@dashevo/dashcore-lib');
 var rimraf = require('rimraf');
 var node;
 
 var should = chai.should();
 
-var HelpthehomelessdRPC = require('@Altcoin-Cash/helpthehomelessd-rpc');
+var DashdRPC = require('@dashevo/dashd-rpc');
 var index = require('..');
 var Transaction = helpthehomeless.Transaction;
 var HelpthehomelessNode = index.Node;

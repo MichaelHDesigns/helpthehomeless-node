@@ -24,4 +24,4 @@ module.exports.cli.daemon = require('./lib/cli/daemon');
 module.exports.cli.helpthehomeless = require('./lib/cli/helpthehomeless');
 module.exports.cli.helpthehomelessd = require('./lib/cli/helpthehomelessd');
 
-module.exports.lib = require('@Altcoin-Cash/helpthehomeless-lib');
+module.exports.lib = require('helpthehomeless-lib');
