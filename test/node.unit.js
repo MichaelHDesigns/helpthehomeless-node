@@ -2,7 +2,7 @@
 
 var should = require('chai').should();
 var sinon = require('sinon');
-var helpthehomeless = require('@Altcoin-Cash/helpthehomeless-lib');
+var dashcore = require('@dashevo/dashcore-lib');
 var Networks = helpthehomeless.Networks;
 var proxyquire = require('proxyquire');
 var util = require('util');

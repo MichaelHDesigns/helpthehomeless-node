@@ -94,8 +94,8 @@ describe('#add', function() {
       var callCount = 0;
       var oldPackage = {
         dependencies: {
-          '@Altcoin-Cash/helpthehomeless-lib': '^v0.15.4',
-          '@Altcoin-Cash/helpthehomeless-node': '^v3.0.7'
+          '@dashevo/dashcore-lib': '^v0.15.4',
+          '@dashevo/dashcore-node': '^v3.0.7'
         }
       };
       var spawn = sinon.stub().returns({

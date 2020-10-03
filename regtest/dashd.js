@@ -7,7 +7,7 @@ var index = require('..');
 var log = index.log;
 
 var chai = require('chai');
-var helpthehomeless = require('@Altcoin-Cash/helpthehomeless-lib');
+var dashcore = require('@dashevo/dashcore-lib');
 var BN = helpthehomeless.crypto.BN;
 var async = require('async');
 var rimraf = require('rimraf');
@@ -17,7 +17,7 @@ var helpthehomelessd;
 var should = chai.should();
 var assert = chai.assert;
 var sinon = require('sinon');
-var HelpthehomelessdRPC = require('@Altcoin-Cash/helpthehomelessd-rpc');
+var DashdRPC = require('@dashevo/dashd-rpc');
 var transactionData = [];
 var blockHashes = [];
 var utxos;
