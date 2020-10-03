@@ -43,8 +43,8 @@
     "helpthehomelessd"
   ],
   "dependencies": {
-    "helpthehomeless-lib": "Altcoin-Cash/helpthehomeless-lib#master",
-    "helpthehomelessd-rpc": "Altcoin-Cash/helpthehomelessd-rpc#master",
+    "helpthehomeless-lib": "@Altcoin-Cash/helpthehomeless-lib#master",
+    "helpthehomelessd-rpc": "@Altcoin-Cash/helpthehomelessd-rpc#master",
     "async": "^2.6.2",
     "body-parser": "^1.19.0",
     "colors": "^1.3.3",
